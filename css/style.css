@@ -54,7 +54,7 @@ input[type="radio"].visually-hidden {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -63,12 +63,17 @@ input[type="radio"].visually-hidden {
   margin-bottom: 112px;
 }
 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logotype {
-  float: left;
   font-size: 30px;
   color: rgb(149, 225, 211);
   font-weight: 700;
-  transition: 200ms;
+  transition: color 200ms linear;
 }
 
 .logotype:hover {
@@ -80,11 +85,9 @@ input[type="radio"].visually-hidden {
 }
 
 .navigation__list {
-  float: right;
   width: 490px;
   display: flex;
   justify-content: space-between;
-  padding-top: 8px;
 }
 
 .navigation__list-link {
@@ -93,7 +96,7 @@ input[type="radio"].visually-hidden {
   font-weight: 600;
   text-transform: uppercase;
   padding-bottom: 10px;
-  transition: 200ms;
+  transition: color 200ms linear;
 }
 
 .navigation__list-link:hover {
@@ -175,13 +178,13 @@ input[type="radio"].visually-hidden {
 
 .team__list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .team__list-image {
   margin-bottom: 30px;
-  transition: 200ms;
+  transition: 200ms linear;
   
 }
 
@@ -189,7 +192,7 @@ input[type="radio"].visually-hidden {
   background-color: rgb(149, 225, 211);
   transition: 0.5s;
   position: relative;
-  transition: 200ms;
+  transition: 200ms linear;
 }
 
 .team__list-image {
@@ -224,12 +227,12 @@ input[type="radio"].visually-hidden {
   background-color: rgb(252, 227, 138);
   background-position: center;
   background-repeat: no-repeat;
-  transition: 200ms;
+  transition: 200ms linear;
 }
 
 .overlay {
   display: block;
-  transition: 200ms;
+  transition: 200ms linear;
 }
 
 .bottom-wrap:hover .overlay {
@@ -239,7 +242,7 @@ input[type="radio"].visually-hidden {
 
 .top-wrap {
   opacity: 0;
-  transition: 200ms;
+  transition: 200ms linear;
 }
 
 .bottom-wrap:hover .top-wrap {
@@ -299,8 +302,12 @@ input[type="radio"].visually-hidden {
   height: 1px;
 }
 
+.footer__item {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__text {
-  float: left;
   margin-top: 22px;
   font-size: 14px;
   font-weight: 400;
@@ -308,7 +315,7 @@ input[type="radio"].visually-hidden {
 
 .footer__item-link {
   color: rgb(149, 225, 211);
-  transition: 200ms;
+  transition: color 200ms linear;
 }
 
 .footer__item-link:hover {
@@ -316,8 +323,7 @@ input[type="radio"].visually-hidden {
 }
 
 .form {
-  float: right;
-  position: relative;
+  display: flex;
   margin-top: 10px;
   margin-bottom: 12px;
 }
@@ -333,7 +339,7 @@ input::placeholder {
 }
 
 input {
-  width: 380px;
+  width: 230px;
   height: 40px;
   outline: none;
   border: 1px solid rgb(231, 231, 231);
@@ -349,11 +355,8 @@ input {
   color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 14px;
-  position: absolute;
-  top: 0;
-  right: 0;
   cursor: pointer;
-  transition: 200ms;
+  transition: color 200ms linear;
 }
 
 .button:hover {
