@@ -233,7 +233,7 @@ input[type="radio"].visually-hidden {
   transition: 200ms;
 }
 
-.overlay:hover {
+.team__list-item:hover .overlay {
   transform: translateX(-10px) translateY(-10px);
 
 } 
