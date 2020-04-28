@@ -66,13 +66,13 @@ input[type="radio"].visually-hidden {
 .logotype {
   float: left;
   font-size: 30px;
-  color: #95e1d3;
+  color: rgb(149, 225, 211);
   font-weight: 700;
   transition: 200ms;
 }
 
 .logotype:hover {
-  color: #f38181;
+  color: rgb(243, 129, 129);
 }
 
 .logo-decoration {
@@ -89,7 +89,7 @@ input[type="radio"].visually-hidden {
 
 .navigation__list-link {
   font-size: 14px;
-  color: #95e1d3;
+  color: rgb(149, 225, 211);
   font-weight: 600;
   text-transform: uppercase;
   padding-bottom: 10px;
@@ -97,8 +97,8 @@ input[type="radio"].visually-hidden {
 }
 
 .navigation__list-link:hover {
-  color: #f38181;
-  border-bottom: 2px solid #f38181;
+  color: rgb(243, 129, 129);
+  border-bottom: 2px solid rgb(243, 129, 129);
 }
 
 .section_title {
@@ -139,14 +139,14 @@ input[type="radio"].visually-hidden {
 
 .services__list-item-title {
   text-transform: uppercase;
-  color: #333333;
+  color: rgb(51, 51, 51);
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 18px;
 }
 
 .services__list-item-description {
-  color: #999999;
+  color: rgb(153, 153, 153);
   font-size: 15px;
   line-height: 24px;
 }
@@ -166,7 +166,7 @@ input[type="radio"].visually-hidden {
 .team__description {
   font-size: 14px;
   line-height: 24px;
-  color: #999999;
+  color: rgb(153, 153, 153);
   width: 980px;
   margin: 0 auto;
   margin-top: 44px;
@@ -186,7 +186,7 @@ input[type="radio"].visually-hidden {
 }
 
 .bottom-wrap {
-  background-color: #95e1d3;
+  background-color: rgb(149, 225, 211);
   transition: 0.5s;
   position: relative;
   
@@ -222,7 +222,7 @@ input[type="radio"].visually-hidden {
   display: block;
   width: 56px;
   height: 56px;
-  background-color: #fce38a;
+  background-color: rgb(252, 227, 138);
   background-position: center;
   background-repeat: no-repeat;
   transition: 200ms;
@@ -267,7 +267,7 @@ input[type="radio"].visually-hidden {
 }
 
 .social-list__item-link:hover {
-  background-color: #95e1d3; 
+  background-color: rgb(149, 225, 211); 
 }
 
 .team__list-title {
@@ -279,7 +279,7 @@ input[type="radio"].visually-hidden {
 
 .team__list-description {
   font-size: 15px;
-  color: #999999;
+  color: rgb(153, 153, 153);
   font-weight: 300;
   font-style: italic;
   margin-bottom: 82px;
@@ -298,6 +298,17 @@ input[type="radio"].visually-hidden {
 .footer__text {
   float: left;
   margin-top: 22px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer__item-link {
+  color: rgb(149, 225, 211);
+  transition: 200ms;
+}
+
+.footer__item-link:hover {
+  color: rgb(243, 129, 129);
 }
 
 .form {
@@ -309,7 +320,7 @@ input[type="radio"].visually-hidden {
 
 input::placeholder {
   text-transform: capitalize;
-  color: #cccccc;
+  color: rgb(204, 204, 204);
   font-size: 15px;
   font-weight: 300;
   font-style: italic;
@@ -331,7 +342,7 @@ input {
   height: 40px;
   text-transform: uppercase;
   outline: none;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 14px;
   position: absolute;
@@ -342,7 +353,7 @@ input {
 }
 
 .button:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: rgb(149, 225, 211);
 }
 
