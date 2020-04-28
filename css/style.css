@@ -337,5 +337,12 @@ input {
   position: absolute;
   top: 0;
   right: 0;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.button:hover {
+  background-color: white;
+  color: rgb(149, 225, 211);
 }
 
