@@ -108,6 +108,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
   font-size: 30px;
   text-transform: uppercase;
+  margin-bottom: 44px;
 }
 
 .section_title_decoration {
@@ -135,10 +136,43 @@ input[type="radio"].visually-hidden {
 }
 
 .services__list-item {
+  display: flex;
+  justify-content: space-between;
   width: 382px;
   margin-bottom: 90px;
-  padding-left: 82px;
-  position: relative;
+}
+
+.services__list-image {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+
+.photography {
+  background-image: url(../img/services/serv-logo1.png);
+}
+
+.design {
+  background-image: url(../img/services/serv-logo2.png);
+}
+
+.creativity {
+  background-image: url(../img/services/serv-logo3.png);
+}
+
+.seo {
+  background-image: url(../img/services/serv-logo4.png);
+}
+
+.css-html {
+  background-image: url(../img/services/serv-logo5.png);
+}
+
+.digital {
+  background-image: url(../img/services/serv-logo6.png);
 }
 
 .services__list-item-title {
@@ -155,12 +189,8 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
 }
 
-.services__list-item-description::after {
-  content: url(../img/services/serv-logo1.png);
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-left: 20px;
+.services__list-text {
+  width: 300px;
 }
 
 .team {
@@ -171,16 +201,19 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   line-height: 24px;
   color: rgb(153, 153, 153);
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
-  margin-top: 44px;
-  margin-bottom: 94px;
+}
+
+.team__list-item {
+  width: 380px;
 }
 
 .team__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 94px;
 }
 
 .team__list-image {
@@ -250,10 +283,6 @@ input[type="radio"].visually-hidden {
   opacity: 1;
   }
 
-/* .top-wrap:hover{
-  opacity: 1;
-} */
-
 .social-list__item-link:not(:nth-child(3)) {
   margin-right: 1px;
 }
@@ -293,7 +322,7 @@ input[type="radio"].visually-hidden {
   margin-bottom: 82px;
 }
 
-.footer__item::before {
+.footer::before {
   content: '';
   display: block;
   margin: 0 auto;
@@ -303,7 +332,7 @@ input[type="radio"].visually-hidden {
   height: 1px;
 }
 
-.footer__item {
+.footer {
   display: flex;
   justify-content: space-between;
 }
@@ -314,12 +343,12 @@ input[type="radio"].visually-hidden {
   font-weight: 400;
 }
 
-.footer__item-link {
+.footer__link {
   color: rgb(149, 225, 211);
   transition: color 200ms linear;
 }
 
-.footer__item-link:hover {
+.footer__link:hover {
   color: rgb(243, 129, 129);
 }
 
